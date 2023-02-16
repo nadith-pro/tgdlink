@@ -3,13 +3,13 @@ const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
 
 // Define token yang diberikan oleh BotFather
-const token = 'YOUR_TELEGRAM_BOT_TOKEN';
+const token = '5738452551:AAHsIMVyOVOhLwoVSoCIdZF0gxNmiI56EYA';
 
 // Buat instance dari TelegramBot
 const bot = new TelegramBot(token, { polling: true });
 
 // Define ID grup yang akan menerima link direct download
-const groupId = 'YOUR_GROUP_ID';
+const groupId = '2028580906';
 
 // Function untuk menangkap pesan yang dikirim ke bot
 bot.on('message', (msg) => {
